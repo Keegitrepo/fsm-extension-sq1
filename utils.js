@@ -16,8 +16,8 @@ function isInsideShell(FSMShell) {
 
         // Initialise the extension by requesting the fsm context
         shellSdk.emit(SHELL_EVENTS.Version1.REQUIRE_CONTEXT, {
-            clientIdentifier: '000179c6-c140-44ec-b48e-b447949fd5c9',
-            clientSecret: '46342ddc-22aa-4f11-98a7-e9032b55477f',
+            clientIdentifier: '000179c7-f751-4c21-966c-65d26c8adf71',
+            clientSecret: 'afd89690-a1e4-42f1-bd24-2ae09691ab3a',
             auth: {
                 response_type: 'token'  // request a user token within the context
             }
